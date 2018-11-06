@@ -7,6 +7,7 @@ import Header2 from './components/header_footer/Header2';
 import Featured from './components/featured';
 import Home from './screens/Home';
 import JobBoard from './screens/JobBoard';
+import CareerForm from './screens/CareerForm';
 
 
 // class App extends Component {
@@ -29,10 +30,12 @@ function App() {
           <Header2>
         <Link className="nav-button" to="/">Home</Link>
         <Link className="nav-button" to="/jobBoard/">Job Board</Link>
+        <Link className="nav-button" to="/careerForm/">Career Form</Link>
         </Header2>
 
         <Route path="/" component={Home} />
         <Route path="/jobBoard/" component={JobBoard} />
+        <Route path="/careerForm/" component={CareerForm} />
       </div>
     </BrowserRouter>
   );
