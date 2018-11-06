@@ -6,7 +6,7 @@ const Featured = () => {
 
         <div className="artist_name">
         <div className="wrapper">
-        Hired!!
+        Hired TODAY!!
                 </div>
             </div>
             

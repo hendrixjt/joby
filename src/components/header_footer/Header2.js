@@ -37,22 +37,7 @@ class Header extends Component {
                  <div className= "header_logo_title">ASAP</div>
 
                  </div>
-                 <div className="header_labels">
-
-                
-                 <Button id= "JobBoard" variant= "contained" color="white"
-                 style={{
-                     padding: '10px 10px'
-                 }}>
-              Job Board
-          </Button>
-          <Button variant= "contained" color="white"
-           style={{
-                     padding: '10px 10px'
-                 }}>
-              Your Career Services Info
-          </Button>
-          </div>
+                 <div className="header_labels">{this.props.children}</div>
 
 
                  <Button
